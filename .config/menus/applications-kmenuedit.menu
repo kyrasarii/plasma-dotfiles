@@ -71,8 +71,24 @@
  </Menu>
  <Menu>
   <Name>System</Name>
+  <Exclude>
+   <Filename>lstopo.desktop</Filename>
+   <Filename>htop.desktop</Filename>
+   <Filename>org.kde.drkonqi.coredump.gui.desktop</Filename>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>fish.desktop</Filename>
+  </Exclude>
+  <Menu>
+   <Name>Terminal</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>ScreenSavers</Name>
+   <Deleted/>
+  </Menu>
   <Layout>
    <Merge type="files"/>
+   <Filename>org.kde.kwalletmanager.desktop</Filename>
    <Filename>nm-connection-editor.desktop</Filename>
    <Filename>org.kde.discover.desktop</Filename>
    <Filename>org.kde.dolphin.desktop</Filename>
@@ -85,20 +101,6 @@
    <Merge type="menus"/>
    <Menuname>More</Menuname>
   </Layout>
-  <Exclude>
-   <Filename>lstopo.desktop</Filename>
-   <Filename>htop.desktop</Filename>
-   <Filename>org.kde.drkonqi.coredump.gui.desktop</Filename>
-   <Filename>avahi-discover.desktop</Filename>
-  </Exclude>
-  <Menu>
-   <Name>Terminal</Name>
-   <Deleted/>
-  </Menu>
-  <Menu>
-   <Name>ScreenSavers</Name>
-   <Deleted/>
-  </Menu>
  </Menu>
  <Menu>
   <Name>Utilities</Name>
@@ -140,6 +142,7 @@
    <Filename>org.kde.kinfocenter.desktop</Filename>
    <Filename>assistant.desktop</Filename>
    <Filename>org.kde.plasma-welcome.desktop</Filename>
+   <Filename>fish.desktop</Filename>
   </Include>
  </Menu>
 </Menu>

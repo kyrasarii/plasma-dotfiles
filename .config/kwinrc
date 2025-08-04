@@ -6,6 +6,9 @@ Id_1=d45f71f0-ff91-45bc-a6d8-a7b952ecd152
 Number=1
 Rows=1
 
+[TabBox]
+ShowTabBox=false
+
 [Tiling]
 padding=4
 
