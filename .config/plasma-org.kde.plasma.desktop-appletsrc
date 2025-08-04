@@ -82,6 +82,9 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][2][Applets][7][Applets][12][Configuration]
+PreloadWeight=60
+
 [Containments][2][Applets][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
@@ -116,12 +119,16 @@ PreloadWeight=65
 [Containments][2][Applets][7][Applets][19][Configuration][General]
 migrated=true
 
+[Containments][2][Applets][7][Applets][21]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=60
+PreloadWeight=80
 
 [Containments][2][Applets][7][Applets][23]
 immutability=1
@@ -135,14 +142,21 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][25][Configuration]
-PreloadWeight=92
+PreloadWeight=70
+
+[Containments][2][Applets][7][Applets][26]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][2][Applets][7][Applets][26][Configuration]
+PreloadWeight=26
 
 [Containments][2][Applets][7][Applets][8]
 immutability=1
@@ -160,9 +174,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][7][General]
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.kclock_1x2
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.plasma.kclock_1x2,org.kde.kdeconnect
 hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.bluetooth
-knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.kclock_1x2
+knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.kclock_1x2,org.kde.kdeconnect
 
 [Containments][2][General]
 AppletOrder=5;20;7
