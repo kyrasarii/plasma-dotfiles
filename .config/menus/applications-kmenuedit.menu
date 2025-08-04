@@ -104,10 +104,17 @@
  </Menu>
  <Menu>
   <Name>Utilities</Name>
+  <Exclude>
+   <Filename>vim.desktop</Filename>
+   <Filename>org.kde.kcalc.desktop</Filename>
+  </Exclude>
   <Layout>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
    <Merge type="files"/>
+   <Filename>org.kde.kalk.desktop</Filename>
+   <Filename>org.kde.kclock.desktop</Filename>
+   <Filename>org.kde.kweather.desktop</Filename>
    <Filename>org.kde.ark.desktop</Filename>
    <Filename>org.kde.plasma.emojier.desktop</Filename>
    <Filename>org.kde.kate.desktop</Filename>
@@ -116,9 +123,6 @@
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
-  <Exclude>
-   <Filename>vim.desktop</Filename>
-  </Exclude>
  </Menu>
  <Menu>
   <Name>Games</Name>
@@ -143,6 +147,7 @@
    <Filename>assistant.desktop</Filename>
    <Filename>org.kde.plasma-welcome.desktop</Filename>
    <Filename>fish.desktop</Filename>
+   <Filename>org.kde.kcalc.desktop</Filename>
   </Include>
  </Menu>
 </Menu>
